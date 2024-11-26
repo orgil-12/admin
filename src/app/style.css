@@ -1,1 +1,103 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+body {
+  background-color: rosybrown;
+  color: black;
+}
+
+.title {
+  margin-left: 27px;
+}
+
+.card {
+  width: 336px;
+  height: 192px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.name {
+  display: flex;
+  gap: 4px;
+  padding-top: 25px;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.firstName {
+  color: #1582c1;
+}
+
+.lastName {
+  color: rgb(255, 166, 0);
+}
+
+.info-container {
+  width: 105px;
+  height: 50px;
+  margin-top: 62.44px;
+  margin-left: 25.87px;
+}
+
+.photo {
+  width: 8.33px;
+  height: 8.33px;
+  background-size: cover;
+  background-position: center;
+}
+
+.mail {
+  background-image: url(mailPhoto.png);
+}
+
+.phone {
+  background-image: url(Vector.png);
+}
+
+.address {
+  background-image: url(addessPhoto.png);
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.rightPhoto {
+  background-image: url(Shape.png);
+  background-size: 100%;
+  background-position: center;
+  width: 163px;
+  height: 192px;
+  border-radius: 0 10px 10px 0;
+}
+
+.logoPhoto {
+  background-image: url(logo.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 25px;
+  margin-left: 47px;
+  width: 90.65px;
+  height: 53.3px;
+}
+
+.qrcode {
+  background-image: url(qr.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 46.7px;
+  margin-left: 71px;
+  width: 42px;
+  height: 42px;
+}
