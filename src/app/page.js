@@ -94,11 +94,10 @@ const users = [
   },
 ];
 
-let User = users.map((index) => {
+let User = users.map((index, id) => {
   return (
     <div>
-      <div className="card" key={index.id}>
-        {console.log(index.id)}
+      <div className="card" key={id}>
         <div>
           <div className="title">
             <div className="name">
@@ -135,5 +134,5 @@ let User = users.map((index) => {
 });
 
 export default function Home() {
-  return <div>{User}</div>;
+  return <div className="grid grid-cols-3 gap-4">{User}</div>;
 }
